@@ -1,0 +1,136 @@
+    .masthead {
+        min-height: 350px;
+        background-image: url('../images/headers/kvlgrey.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 1em 0em;
+    }
+    
+    .hidden.menu {
+        display: none;
+    }
+    
+    .masthead .logo.item img {
+        margin-right: 1em;
+    }
+    
+    .masthead .ui.menu .ui.button {
+        margin-left: 0.5em;
+    }
+    
+    .masthead h1.ui.header {
+        margin-top: 3em;
+        margin-bottom: 0em;
+        font-size: 4em;
+        font-weight: normal;
+    }
+    
+    .masthead h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+    }
+    
+    .ui.first.segment {
+        background-color: #eee;
+    }
+    
+    .secondary.pointing.menu .toc.item {
+        display: none;
+    }
+    
+    .large.text {
+        font-size: 1.2em;
+    }
+    
+    .table.training {
+        font-size: 1.05em;
+    }
+    
+    .heading {
+        background-color: orange;
+    }
+    
+    .pic {
+        padding-top: 18px;
+        background: white;
+    }
+    
+    .vide {
+        padding: 2em;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 91%, rgba(237, 237, 237, 1) 100%);
+    }
+    
+    .orangey {
+        padding: 2em;
+        background-color: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 47%, rgba(225, 225, 225, 1) 53%, rgba(246, 246, 246, 1) 100%);
+        background-image: url("data:image/svg+xml,%3Csvg width='32' height='26' viewBox='0 0 32 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 0v3.994C14 7.864 10.858 11 7 11c-3.866 0-7-3.138-7-7.006V0h2v4.005C2 6.765 4.24 9 7 9c2.756 0 5-2.236 5-4.995V0h2zm0 26v-5.994C14 16.138 10.866 13 7 13c-3.858 0-7 3.137-7 7.006V26h2v-6.005C2 17.235 4.244 15 7 15c2.76 0 5 2.236 5 4.995V26h2zm2-18.994C16 3.136 19.142 0 23 0c3.866 0 7 3.138 7 7.006v9.988C30 20.864 26.858 24 23 24c-3.866 0-7-3.138-7-7.006V7.006zm2-.01C18 4.235 20.244 2 23 2c2.76 0 5 2.236 5 4.995v10.01C28 19.765 25.756 22 23 22c-2.76 0-5-2.236-5-4.995V6.995z' fill='%23eeeeee' fill-opacity='0.37' fill-rule='evenodd'/%3E%3C/svg%3E");
+    }
+    
+    .opening {
+        padding: 2em;
+        background-image: url('../images/rnd/eka.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .opening a:link,
+    a:visited {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        vertical-align: baseline;
+        font-weight: bold;
+        color: rgb(255, 139, 7);
+    }
+    
+    .opening a:hover {
+        text-decoration: underline;
+        transition: all .4s;
+    }
+    
+    .footer a:link,
+    a:visited {
+        color: inherit;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .ui.fixed.menu {
+            display: none !important;
+        }
+        .secondary.pointing.menu .item,
+        .secondary.pointing.menu .menu {
+            display: none;
+        }
+        .secondary.pointing.menu .toc.item {
+            display: block;
+        }
+        .masthead.segment {
+            min-height: 350px;
+        }
+        .masthead h1.ui.header {
+            font-size: 2em;
+            margin-top: 1.5em;
+        }
+        .masthead h2 {
+            margin-top: 0.5em;
+            font-size: 1.5em;
+        }
+        .ui.image {
+            display: none;
+        }
+        .table.training {
+            font-size: 1.35em;
+        }
+    }
+    
+    .yt {
+        background-color: #795089;
+    }
+    
+    .footer {
+        padding: 2em;
+        min-height: 300px;
+        background-image: linear-gradient(to bottom, #534439, #41332e, #2d2422, #1a1516, #000000);
+        color: white;
+    }
+
+    
